@@ -98,8 +98,7 @@ class subPlayerControl(object):
 	def __init__(self, path):
 		self.path = path
 		try:
-			self.p = subprocess.Popen([self.path], stdout=subprocess.PIPE, stderr=subprocess.PIPE,
-									  stdin=subprocess.PIPE)
+			self.p = subprocess.Popen([self.path], stdout=subprocess.PIPE, stderr=subprocess.PIPE,stdin=subprocess.PIPE)
 		# show server condition
 
 		except:
@@ -217,7 +216,7 @@ if __name__ == '__main__':
 	print (socket.gethostbyname(socket.gethostname()))
 	#open path & server ip, port
 	path = 'C:\\Funique\\ClientEXE\\Funique_Client.exe'
-	subPath = 'C:\\Funique\\ClientEXE\\Funique_Client.exe'
+	# subPath = 'C:\\Funique\\ClientEXE\\Funique_Client.exe'
 	fold = os.path.dirname(os.path.dirname(path)) + '\\'
 	server_host = socket.gethostbyname(socket.gethostname()),6500
 
@@ -232,8 +231,8 @@ if __name__ == '__main__':
 	
 
 	playerControl = playerControl(path)
-	subPlayerControl = subPlayerControl(subPath)
-	FTPDownload = FTPDownload(fold)
+	# subPlayerControl = subPlayerControl(subPath)
+	# FTPDownload = FTPDownload(fold)
 	OSCControl = OSCControl(server_host)
 	
 	thread = update()
