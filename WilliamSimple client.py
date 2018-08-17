@@ -52,12 +52,12 @@ if __name__ == "__main__":
       help="The port the OSC server is listening on")
   args = parser.parse_args()
 
-  print(socket.gethostbyname(socket.gethostname()))
+  # print(socket.gethostbyname(socket.gethostname()))
   # client = udp_client.SimpleUDPClient(args.ip, args.port)
   client = udp_client.SimpleUDPClient(args.ip, args.port)
-  client.send_message("/volume",0)
-  # for x in range(10):
-  #   client.send_message("/filter", random.random())
-  #   time.sleep(1)
+  # client.send_message("/volume",0)
+  for x in range(10):
+    client.send_message("/filter", random.random())
+    time.sleep(1)
   # thread = update()
   # thread.start()
