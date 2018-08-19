@@ -14,16 +14,25 @@ from subprocess import STDOUT, check_output
 class playerControl(object):
   def __init__(self, path):
     self.path = path
-    # try:
-    #   self.p = subprocess.Popen([self.path], stdout=subprocess.PIPE, stderr=subprocess.PIPE, stdin=subprocess.PIPE)
+    print("playerControl init path = "+self.path)
+    try:
+      self.p = subprocess.Popen([self.path], stdout=subprocess.PIPE, stderr=subprocess.PIPE, stdin=subprocess.PIPE)
     # show server condition
 
-    # except:
-    #   pass
+    except:
+      print("playerControl init open error")
+      pass
 
-  def openPlayer(self, addr, tags):
-    # self.p.kill()
+  def openPlayer(self):
+    self.p.kill()
     self.p = subprocess.Popen([self.path], stdout=subprocess.PIPE, stderr=subprocess.PIPE, stdin=subprocess.PIPE)
+
+  def closePlayer(self):
+    self.p.kill()
+
+  def setPath(self,path):
+    self.path = path
+    print(self.path)
 
 
 
@@ -52,13 +61,26 @@ class Osccontrol():
 
     self.dispatcher = dispatcher.Dispatcher()
     self.dispatcher.map("/filter", print)
-    self.dispatcher.map("/clientSetup", playerControl.openPlayer)
+    self.dispatcher.map("/clientSetup", print)
+    self.dispatcher.map("/FromServer", self.ServerRecived)
     self.dispatcher.map("/logvolume", print_compute_handler, "Log volume", math.log)
 
     self.server = osc_server.ThreadingOSCUDPServer(
       (self.args.ip, self.args.port), self.dispatcher)
     print("Serving on {}".format(self.server.server_address))
     self.server.serve_forever()
+
+  def ServerRecived(self, addr, tags):
+    print(addr)
+    print(tags)
+    # print (tags.split("/"))
+    if tags.split("/")[0] == "123":
+      print("有123 = "+tags.split("/")[2])
+    elif tags.split("/")[0] == "openPlayer":
+      playerControl.openPlayer()
+    elif tags.split("/")[0] == "closePlayer":
+      playerControl.closePlayer()
+    # print (tags.split(' ', 1))
 
 if __name__ == "__main__":
 
@@ -69,8 +91,9 @@ if __name__ == "__main__":
   #     type=int, default=6500, help="The port to listen on")
   # args = parser.parse_args()
   #
-  # path = 'C:\\Funique\\ClientEXE\\Funique_Client.exe'
-  # playerControl = playerControl(path)
+  path = 'C:\\Funique\\ClientEXE\\Funique_Client.exe'
+  # path = 'C:\\Funique\\ClientEXE\\scratch.py'
+  playerControl = playerControl(path)
   #
   # dispatcher = dispatcher.Dispatcher()
   # dispatcher.map("/filter", print)
@@ -84,6 +107,5 @@ if __name__ == "__main__":
 
   o = Osccontrol()
 
-  input()
 
 
