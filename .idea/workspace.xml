@@ -2,7 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b31e95b-488a-4d29-9992-ff9e3a6359b1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/WilliamSimple server.py" beforeDir="false" afterPath="$PROJECT_DIR$/WilliamSimple server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AE_Supervisor/AE_Supervisor_v1.0.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AE_Supervisor/AE_Supervisor_v1.0.spec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AE_Supervisor/build/AE_Supervisor_v1.0/AE_Supervisor_v1.0.exe.manifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AE_Supervisor/build/AE_Supervisor_v1.0/Analysis-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AE_Supervisor/build/AE_Supervisor_v1.0/EXE-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AE_Supervisor/build/AE_Supervisor_v1.0/PKG-00.pkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AE_Supervisor/build/AE_Supervisor_v1.0/PKG-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AE_Supervisor/build/AE_Supervisor_v1.0/PYZ-00.pyz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AE_Supervisor/build/AE_Supervisor_v1.0/PYZ-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AE_Supervisor/build/AE_Supervisor_v1.0/base_library.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AE_Supervisor/build/AE_Supervisor_v1.0/warn-AE_Supervisor_v1.0.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AE_Supervisor/build/AE_Supervisor_v1.0/xref-AE_Supervisor_v1.0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AE_Supervisor/dist/AE_Supervisor_v1.0.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AE_Supervisor/pyautogui_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WilliamWatchDog_v1.0/AE_Supervisor_v1.0.spec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WilliamWatchDog_v1.0/build/WilliamWatchDog_v1.0/Analysis-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WilliamWatchDog_v1.0/build/WilliamWatchDog_v1.0/EXE-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WilliamWatchDog_v1.0/build/WilliamWatchDog_v1.0/PKG-00.pkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WilliamWatchDog_v1.0/build/WilliamWatchDog_v1.0/PKG-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WilliamWatchDog_v1.0/build/WilliamWatchDog_v1.0/PYZ-00.pyz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WilliamWatchDog_v1.0/build/WilliamWatchDog_v1.0/PYZ-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WilliamWatchDog_v1.0/build/WilliamWatchDog_v1.0/warn-WilliamWatchDog_v1.0.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WilliamWatchDog_v1.0/dist/WilliamWatchDog_v1.0.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PythonTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WilliamWatchDog_v1.0/WilliamWatchDog_v1.0.spec" beforeDir="false" afterPath="$PROJECT_DIR$/WilliamWatchDog_v1.0/WilliamWatchDog_v1.0.spec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WilliamWatchDog_v1.0/build/WilliamWatchDog_v1.0/WilliamWatchDog_v1.0.exe.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/WilliamWatchDog_v1.0/build/WilliamWatchDog_v1.0/WilliamWatchDog_v1.0.exe.manifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WilliamWatchDog_v1.0/build/WilliamWatchDog_v1.0/base_library.zip" beforeDir="false" afterPath="$PROJECT_DIR$/WilliamWatchDog_v1.0/build/WilliamWatchDog_v1.0/base_library.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WilliamWatchDog_v1.0/build/WilliamWatchDog_v1.0/xref-WilliamWatchDog_v1.0.html" beforeDir="false" afterPath="$PROJECT_DIR$/WilliamWatchDog_v1.0/build/WilliamWatchDog_v1.0/xref-WilliamWatchDog_v1.0.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,70 +40,18 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-157162887">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="py" value="7" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Python" value="7" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="py" value="195" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Python" value="195" />
-        </counts>
-      </usages-collector>
-    </session>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/PythonTest$WilliamWatchDog_v1_0.coverage" NAME="WilliamWatchDog_v1.0 Coverage Results" MODIFIED="1552578589217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WilliamWatchDog_v1.0" />
+    <SUITE FILE_PATH="coverage/PythonTest$AE_Supervisor_v1_0.coverage" NAME="AE_Supervisor_v1.0 Coverage Results" MODIFIED="1552640224587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AE_Supervisor" />
+    <SUITE FILE_PATH="coverage/PythonTest$pyautogui_test.coverage" NAME="pyautogui_test Coverage Results" MODIFIED="1552639147669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AE_Supervisor" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WilliamSimple client.py">
+        <entry file="file://$PROJECT_DIR$/WilliamWatchDog_v1.0/WilliamWatchDog_v1.0.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1025">
-              <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Old_WatchDog/WatchDog.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3125">
-              <caret line="180" column="28" selection-start-line="180" selection-start-column="28" selection-end-line="180" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#17#0" expanded="true" />
-                <element signature="e#183#1651#0" />
-                <element signature="e#1696#1775#0" />
-                <element signature="e#1815#1847#0" />
-                <element signature="e#1889#1921#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WilliamSimple server.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="392">
+              <caret line="98" column="3" selection-start-line="98" selection-start-column="3" selection-end-line="98" selection-end-column="3" />
               <folding>
                 <element signature="e#128#143#0" expanded="true" />
               </folding>
@@ -81,7 +59,38 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AE_Supervisor/AE_Supervisor_v1.0.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="64" column="10" lean-forward="true" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="10" />
+              <folding>
+                <element signature="e#19#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AE_Supervisor/pyautogui_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="e#0#16#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -95,21 +104,27 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/WilliamSimple server.py" />
+        <option value="$PROJECT_DIR$/WilliamSimple client.py" />
+        <option value="$PROJECT_DIR$/AE_Supervisor/AE_Supervisor_v1.0" />
+        <option value="$PROJECT_DIR$/AE_Supervisor/test.py" />
+        <option value="$PROJECT_DIR$/AE_Supervisor/pyautogui_test.py" />
+        <option value="$PROJECT_DIR$/AE_Supervisor/AE_Supervisor_v1.0.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="2052" />
-    <option name="y" value="21" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1912" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -119,16 +134,40 @@
             </path>
             <path>
               <item name="PythonTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonTest" type="462c0819:PsiDirectoryNode" />
+              <item name="AE_Supervisor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonTest" type="462c0819:PsiDirectoryNode" />
+              <item name="AE_Supervisor" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PythonTest" type="462c0819:PsiDirectoryNode" />
+              <item name="WilliamWatchDog_v1.0" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PythonTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="PythonTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -143,6 +182,81 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Python.AE_Supervisor_v1.0">
+    <configuration name="AE_Supervisor_v1.0" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AE_Supervisor" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AE_Supervisor/AE_Supervisor_v1.0.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="WilliamWatchDog_v1.0" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WilliamWatchDog_v1.0" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WilliamWatchDog_v1.0/WilliamWatchDog_v1.0.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pyautogui_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AE_Supervisor" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AE_Supervisor/pyautogui_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.AE_Supervisor_v1.0" />
+        <item itemvalue="Python.pyautogui_test" />
+        <item itemvalue="Python.WilliamWatchDog_v1.0" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -153,19 +267,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534682586252</updated>
+      <workItem from="1552490046770" duration="11996000" />
     </task>
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="11996000" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="2052" y="21" width="1400" height="1000" extended-state="0" />
+    <frame x="1912" y="-8" width="1874" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496329" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2905182" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28066528" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3991684" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -173,42 +294,32 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="SciView" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/Program Files/Python36/Lib/site-packages/pythonosc/udp_client.py">
+    <entry file="file://C:/Program Files/Python36/Lib/site-packages/pythonosc/udp_client.py" />
+    <entry file="file://C:/Program Files/Python36/Lib/subprocess.py" />
+    <entry file="file://$PROJECT_DIR$/WilliamSimple server.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/threading.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python36/Lib/subprocess.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="855" lean-forward="true" selection-start-line="855" selection-end-line="855" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WilliamSimple client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1025">
-          <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+        <state relative-caret-position="5704">
+          <caret line="1157" column="13" selection-start-line="1157" selection-start-column="13" selection-end-line="1157" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Old_WatchDog/WatchDog.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3125">
-          <caret line="180" column="28" selection-start-line="180" selection-start-column="28" selection-end-line="180" selection-end-column="28" />
+        <state relative-caret-position="125">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
           <folding>
-            <element signature="e#0#17#0" expanded="true" />
             <element signature="e#183#1651#0" />
             <element signature="e#1696#1775#0" />
             <element signature="e#1815#1847#0" />
@@ -217,12 +328,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WilliamSimple server.py">
+    <entry file="file://$PROJECT_DIR$/WilliamSimple client.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="-513">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#155#170#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AE_Supervisor/AE_Supervisor_v1.0">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="46" lean-forward="true" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AE_Supervisor/test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WilliamWatchDog_v1.0/WilliamWatchDog_v1.0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="98" column="3" selection-start-line="98" selection-start-column="3" selection-end-line="98" selection-end-column="3" />
           <folding>
             <element signature="e#128#143#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AE_Supervisor/pyautogui_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AE_Supervisor/AE_Supervisor_v1.0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="64" column="10" lean-forward="true" selection-start-line="64" selection-start-column="10" selection-end-line="64" selection-end-column="10" />
+          <folding>
+            <element signature="e#19#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
