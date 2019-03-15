@@ -1,0 +1,27 @@
+missing module named 'multiprocessing.forking' - imported by c:\program files\python36\lib\site-packages\PyInstaller\loader\rthooks\pyi_rth_multiprocessing.py
+missing module named multiprocessing.get_context - imported by multiprocessing, multiprocessing.pool, multiprocessing.managers, multiprocessing.sharedctypes
+missing module named multiprocessing.TimeoutError - imported by multiprocessing, multiprocessing.pool
+missing module named multiprocessing.BufferTooShort - imported by multiprocessing, multiprocessing.connection
+missing module named multiprocessing.AuthenticationError - imported by multiprocessing, multiprocessing.connection
+missing module named multiprocessing.set_start_method - imported by multiprocessing, multiprocessing.spawn
+missing module named multiprocessing.get_start_method - imported by multiprocessing, multiprocessing.spawn
+missing module named multiprocessing.SimpleQueue - imported by multiprocessing, concurrent.futures.process
+missing module named resource - imported by posix, C:\Users\funqiue\Desktop\Python Test\test\WilliamWatchDog_v1.0.py
+missing module named posix - imported by os, C:\Users\funqiue\Desktop\Python Test\test\WilliamWatchDog_v1.0.py
+missing module named _posixsubprocess - imported by subprocess, multiprocessing.util, C:\Users\funqiue\Desktop\Python Test\test\WilliamWatchDog_v1.0.py
+missing module named org - imported by pickle, C:\Users\funqiue\Desktop\Python Test\test\WilliamWatchDog_v1.0.py
+missing module named readline - imported by cmd, code, pdb, C:\Users\funqiue\Desktop\Python Test\test\WilliamWatchDog_v1.0.py
+excluded module named _frozen_importlib - imported by importlib, importlib.abc, C:\Users\funqiue\Desktop\Python Test\test\WilliamWatchDog_v1.0.py
+missing module named _frozen_importlib_external - imported by importlib._bootstrap, importlib, importlib.abc, C:\Users\funqiue\Desktop\Python Test\test\WilliamWatchDog_v1.0.py
+missing module named _winreg - imported by platform, C:\Users\funqiue\Desktop\Python Test\test\WilliamWatchDog_v1.0.py
+missing module named _scproxy - imported by urllib.request
+missing module named java - imported by platform, C:\Users\funqiue\Desktop\Python Test\test\WilliamWatchDog_v1.0.py
+missing module named 'java.lang' - imported by platform, C:\Users\funqiue\Desktop\Python Test\test\WilliamWatchDog_v1.0.py, xml.sax._exceptions
+missing module named vms_lib - imported by platform, C:\Users\funqiue\Desktop\Python Test\test\WilliamWatchDog_v1.0.py
+missing module named termios - imported by tty, C:\Users\funqiue\Desktop\Python Test\test\WilliamWatchDog_v1.0.py, getpass
+missing module named grp - imported by shutil, tarfile, C:\Users\funqiue\Desktop\Python Test\test\WilliamWatchDog_v1.0.py
+missing module named pwd - imported by posixpath, shutil, tarfile, http.server, webbrowser, C:\Users\funqiue\Desktop\Python Test\test\WilliamWatchDog_v1.0.py, netrc, getpass
+missing module named _dummy_threading - imported by dummy_threading, C:\Users\funqiue\Desktop\Python Test\test\WilliamWatchDog_v1.0.py
+missing module named 'org.python' - imported by copy, C:\Users\funqiue\Desktop\Python Test\test\WilliamWatchDog_v1.0.py, xml.sax
+missing module named fcntl - imported by asyncio.unix_events
+missing module named asyncio.DefaultEventLoopPolicy - imported by asyncio, asyncio.events
