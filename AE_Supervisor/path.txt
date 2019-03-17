@@ -1,0 +1,3 @@
+8
+C:\Users\WILL\AppData\Local\SourceTree\SourceTree.exe
+SourceTree.exe
