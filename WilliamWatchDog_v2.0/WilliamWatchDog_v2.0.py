@@ -7,6 +7,8 @@ import argparse
 import math
 import socket
 import subprocess
+import pyautogui
+import time
 from pythonosc import dispatcher
 from pythonosc import osc_server
 from subprocess import STDOUT, check_output
@@ -39,6 +41,27 @@ class playerControl(object):
   def openSubProgram(self):
     self.sp.kill()
     self.sp = subprocess.Popen([self.path], stdout=subprocess.PIPE, stderr=subprocess.PIPE, stdin=subprocess.PIPE)
+
+  def resetHeadsetCenter(self):
+    time.sleep(5)
+    try:
+      pyautogui.click(pyautogui.center(pyautogui.locateOnScreen('wmr.png')))  # 运行别的代码
+    except:
+      print("err")  # 如果在try部份引发了'name'异常
+    else:
+      print("right")  # 如果没有异常发生
+    pyautogui.hotkey('altleft', 'space', 'x')
+    pyautogui.press('x');
+    time.sleep(0.5)
+    pyautogui.click(pyautogui.center(pyautogui.locateOnScreen('wmr2.png')))
+    time.sleep(0.5)
+    pyautogui.click(pyautogui.center(pyautogui.locateOnScreen('wmr3.png')))
+    time.sleep(0.5)
+    pyautogui.click(pyautogui.center(pyautogui.locateOnScreen('wmr4.png')))
+    time.sleep(0.5)
+    pyautogui.click(pyautogui.center(pyautogui.locateOnScreen('wmr5.png')))
+    time.sleep(0.5)
+    pyautogui.click(pyautogui.center(pyautogui.locateOnScreen('wmr6.png')))
 
 
 
