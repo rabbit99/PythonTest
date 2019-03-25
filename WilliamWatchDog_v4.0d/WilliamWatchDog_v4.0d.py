@@ -7,6 +7,7 @@ import argparse
 import math
 import socket
 import subprocess
+import os
 from pythonosc import dispatcher
 from pythonosc import osc_server
 from subprocess import STDOUT, check_output
@@ -26,14 +27,26 @@ class playerControl(object):
       pass
 
   def openPlayer(self):
-    self.p.kill()
-    self.p = subprocess.Popen([self.path], stdout=subprocess.PIPE, stderr=subprocess.PIPE, stdin=subprocess.PIPE)
+    try:
+     self.p.kill()
+     self.p = subprocess.Popen([self.path], stdout=subprocess.PIPE, stderr=subprocess.PIPE, stdin=subprocess.PIPE)
+    except:
+      print("openPlayer error")
+      pass
 
   def closePlayer(self):
-    self.p.kill()
+    try:
+     self.p.kill()
+    except:
+      print("closePlayer error")
+      pass
 
   def closeSteamVR(self):
-    os.system("taskkill /f /im vrmonitor.exe")
+    try:
+     os.system("taskkill /f /im vrmonitor.exe")
+    except:
+      print("closeSteamVR error")
+      pass
 
   def setPath(self,path):
     self.path = path
@@ -53,6 +66,24 @@ def print_compute_handler(unused_addr, args, volume):
     print("[{0}] ~ {1}".format(args[0], args[1](volume)))
   except ValueError: pass
 
+def check_path():
+  try:
+     f = open('path.txt', 'r')  # 运行别的代码
+  except:
+    print("無此txt 新建立一個")  # 如果在try部份引发了'name'异常
+    f = open('path.txt', 'w')
+    lines = ['C:\\Funique\\ClientEXE\\Funique_Client.exe']
+    f.writelines(lines)
+  else:
+    print("有此檔案")  # 如果没有异常发生
+
+    f = open('path.txt', 'r')
+    path = []
+  for line in f:
+    path.append(line)
+    print(line)
+    print(path)
+    return path
 
 class Osccontrol():
   def __init__(self):
@@ -103,16 +134,16 @@ if __name__ == "__main__":
   # parser.add_argument("--port",
   #     type=int, default=6500, help="The port to listen on")
   # args = parser.parse_args()
-  #
-  path = 'D:\\Funique\\ClientEXE\\Funique_Client.exe'
-  # path = 'C:\\Funique\\ClientEXE\\scratch.py'
-  playerControl = playerControl(path)
-  #
+
+  # path = 'C:\\Funique\\ClientEXE\\Funique_Client.exe'
+  path = check_path()
+  playerControl = playerControl(path[0])
+
   # dispatcher = dispatcher.Dispatcher()
   # dispatcher.map("/filter", print)
   # dispatcher.map("/clientSetup", playerControl.openPlayer)
   # dispatcher.map("/logvolume", print_compute_handler, "Log volume", math.log)
-  #
+
   # server = osc_server.ThreadingOSCUDPServer(
   #     (args.ip, args.port), dispatcher)
   # print("Serving on {}".format(server.server_address))

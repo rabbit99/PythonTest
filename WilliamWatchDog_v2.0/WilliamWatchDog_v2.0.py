@@ -28,11 +28,19 @@ class playerControl(object):
       pass
 
   def openPlayer(self):
-    self.p.kill()
-    self.p = subprocess.Popen([self.path], stdout=subprocess.PIPE, stderr=subprocess.PIPE, stdin=subprocess.PIPE)
+    try:
+     self.p.kill()
+     self.p = subprocess.Popen([self.path], stdout=subprocess.PIPE, stderr=subprocess.PIPE, stdin=subprocess.PIPE)
+    except:
+      print("openPlayer error")
+      pass
 
   def closePlayer(self):
-    self.p.kill()
+    try:
+     self.p.kill()
+    except:
+      print("closePlayer error")
+      pass
 
   def setPath(self,path):
     self.subPath = path
