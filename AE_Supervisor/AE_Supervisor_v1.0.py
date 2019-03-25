@@ -3,7 +3,7 @@ import win32com.client
 import time
 import subprocess
 import pyautogui
-
+import os
 
 class playerControl(object):
     def __init__(self, p_path,p_process_name,p_waitSec):
@@ -26,25 +26,35 @@ class playerControl(object):
         # TODO
         #
         print("popen = "+self.pl_path)
-        # self.p = subprocess.Popen([self.path], stdout=subprocess.PIPE, stderr=subprocess.PIPE, stdin=subprocess.PIPE)
+        # self.p = subprocess.Popen([self.pl_path], stdout=subprocess.PIPE, stderr=subprocess.PIPE, stdin=subprocess.PIPE)
         self.p = subprocess.Popen([self.pl_path], shell=True)
-        self.p.wait()
+        # os.system(self.pl_path)
+        # self.p.wait()
         time.sleep(float(self.pl_waitSec))
 
         print("結束等待"+self.pl_waitSec)
 
     def reOpenPlayer(self):
         # pyautogui.press('enter');
+
+        time.sleep(1)
+        pyautogui.press('enter');
+        time.sleep(1)
+
         self.openPlayer()
         print("按熱鍵")
+
+        pyautogui.press('esc');
         pyautogui.hotkey('altleft', 'ctrlleft', '0')
         # pyautogui.hotkey('ctrlleft', 'n')
-        time.sleep(float(self.pl_waitSec))
+        time.sleep(3)
         pyautogui.press('enter');
 
     def check_exsit(self,xx_process_name):
         WMI = win32com.client.GetObject('winmgmts:')
         # test = r'SourceTree.exe'
+
+
         processCodeCov = WMI.ExecQuery('select * from Win32_Process where Name="%s"' % xx_process_name)
         if len(processCodeCov) > 0:
             print('%s is exists' % xx_process_name)

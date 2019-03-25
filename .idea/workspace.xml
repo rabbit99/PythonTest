@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/AE_Supervisor/AE_Supervisor_v1.0.py" line="5" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8b31e95b-488a-4d29-9992-ff9e3a6359b1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/PythonTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AE_Supervisor/AE_Supervisor_v1.0.py" beforeDir="false" afterPath="$PROJECT_DIR$/AE_Supervisor/AE_Supervisor_v1.0.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WilliamWatchDog_v2.0/WilliamWatchDog_v2.0.py" beforeDir="false" afterPath="$PROJECT_DIR$/WilliamWatchDog_v2.0/WilliamWatchDog_v2.0.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AE_Supervisor/path.txt" beforeDir="false" afterPath="$PROJECT_DIR$/AE_Supervisor/path.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PyAutoGUI_test/PyAutoGUI_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/PyAutoGUI_test/PyAutoGUI_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PyAutoGUI_test/wmr2.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/PyAutoGUI_test/wmr2.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PyAutoGUI_test/wmr3.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/PyAutoGUI_test/wmr3.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PyAutoGUI_test/wmr4.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/PyAutoGUI_test/wmr4.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PyAutoGUI_test/wmr5.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/PyAutoGUI_test/wmr5.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PyAutoGUI_test/wmr6.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/PyAutoGUI_test/wmr6.PNG" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +35,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WilliamWatchDog_v1.0/WilliamWatchDog_v1.0.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2300">
+            <state relative-caret-position="1748">
               <caret line="98" column="3" selection-start-line="98" selection-start-column="3" selection-end-line="98" selection-end-column="3" />
               <folding>
                 <element signature="e#128#143#0" expanded="true" />
@@ -36,8 +47,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AE_Supervisor/AE_Supervisor_v1.0.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="950">
-              <caret line="41" column="42" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
+            <state relative-caret-position="779">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
               <folding>
                 <element signature="e#19#41#0" expanded="true" />
               </folding>
@@ -48,7 +59,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AE_Supervisor/pyautogui_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
+            <state relative-caret-position="304">
               <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
@@ -60,7 +71,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/File_test/File_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
+            <state relative-caret-position="76">
               <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
             </state>
           </provider>
@@ -69,11 +80,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PyAutoGUI_test/PyAutoGUI_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-              <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-              <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-              <caret line="17" selection-start-line="17" selection-end-line="17" selection-end-column="37" />
+            <state relative-caret-position="570">
+              <caret line="75" column="28" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="28" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
               </folding>
@@ -84,7 +92,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WilliamWatchDog_v2.0/WilliamWatchDog_v2.0.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1350">
+            <state relative-caret-position="1026">
               <caret line="62" column="18" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
               <folding>
                 <element signature="e#128#143#0" expanded="true" />
@@ -120,14 +128,14 @@
         <option value="$PROJECT_DIR$/AE_Supervisor/pyautogui_test.py" />
         <option value="$PROJECT_DIR$/WilliamWatchDog_v2.0/WilliamWatchDog_v2.0.py" />
         <option value="$PROJECT_DIR$/File_test/File_test.py" />
-        <option value="$PROJECT_DIR$/AE_Supervisor/AE_Supervisor_v1.0.py" />
         <option value="$PROJECT_DIR$/PyAutoGUI_test/PyAutoGUI_test.py" />
+        <option value="$PROJECT_DIR$/AE_Supervisor/AE_Supervisor_v1.0.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-132" />
+    <option name="y" value="-15" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -139,63 +147,23 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="PythonTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PythonTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PythonTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PythonTest" type="462c0819:PsiDirectoryNode" />
-              <item name="AE_Supervisor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PythonTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PythonTest" type="462c0819:PsiDirectoryNode" />
-              <item name="AE_Supervisor" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PythonTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PythonTest" type="462c0819:PsiDirectoryNode" />
-              <item name="File_test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PythonTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PythonTest" type="462c0819:PsiDirectoryNode" />
-              <item name="PyAutoGUI_test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PythonTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PythonTest" type="462c0819:PsiDirectoryNode" />
-              <item name="WilliamWatchDog_v1.0" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PythonTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PythonTest" type="462c0819:PsiDirectoryNode" />
-              <item name="WilliamWatchDog_v2.0" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PythonTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="PythonTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.7 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Python Test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python Test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/Program Files (x86)/Python37-32" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -353,9 +321,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28731343" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28714436" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -385,13 +352,7 @@
     <entry file="file://C:/Program Files/Python36/Lib/site-packages/pythonosc/udp_client.py" />
     <entry file="file://C:/Program Files/Python36/Lib/subprocess.py" />
     <entry file="file://$PROJECT_DIR$/WilliamSimple server.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/threading.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5704">
-          <caret line="1157" column="13" selection-start-line="1157" selection-start-column="13" selection-end-line="1157" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/threading.py" />
     <entry file="file://$PROJECT_DIR$/Old_WatchDog/WatchDog.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -417,16 +378,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AE_Supervisor/AE_Supervisor_v1.0" />
     <entry file="file://$PROJECT_DIR$/AE_Supervisor/test.py" />
-    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/1828608124/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="289" column="5" lean-forward="true" selection-start-line="289" selection-start-column="5" selection-end-line="289" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/1828608124/builtins.py" />
     <entry file="file://$PROJECT_DIR$/WilliamWatchDog_v1.0/WilliamWatchDog_v1.0.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2300">
+        <state relative-caret-position="1748">
           <caret line="98" column="3" selection-start-line="98" selection-start-column="3" selection-end-line="98" selection-end-column="3" />
           <folding>
             <element signature="e#128#143#0" expanded="true" />
@@ -436,8 +391,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AE_Supervisor/AE_Supervisor_v1.0.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="41" column="42" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
+        <state relative-caret-position="779">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
           <folding>
             <element signature="e#19#41#0" expanded="true" />
           </folding>
@@ -446,7 +401,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AE_Supervisor/pyautogui_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
+        <state relative-caret-position="304">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
@@ -456,14 +411,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/File_test/File_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
+        <state relative-caret-position="76">
           <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WilliamWatchDog_v2.0/WilliamWatchDog_v2.0.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
+        <state relative-caret-position="1026">
           <caret line="62" column="18" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
           <folding>
             <element signature="e#128#143#0" expanded="true" />
@@ -473,11 +428,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PyAutoGUI_test/PyAutoGUI_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-          <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-          <caret line="17" selection-start-line="17" selection-end-line="17" selection-end-column="37" />
+        <state relative-caret-position="570">
+          <caret line="75" column="28" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="28" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
           </folding>
