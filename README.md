@@ -5,3 +5,6 @@ WatchDog
 
 AE_Supervisor
 監看系統管理員，用PyAutoGUI執行自動作業
+
+File_test
+練習用Python存讀檔案
